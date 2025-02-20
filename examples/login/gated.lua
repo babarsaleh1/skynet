@@ -86,4 +86,4 @@ function server.register_handler(name)
 end
 
 msgserver.start(server)
-
+local id = internal_id	-- don't use internal_id directly.updated
